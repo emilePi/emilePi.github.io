@@ -1,0 +1,99 @@
+{{ $page := . }}
+{{ $featured := (.Resources.ByType "image").GetMatch "*featured*" }}
+
+{{ $title := .Title }}
+{{ if and (not $title) .IsNode }}
+  {{ if eq .Type "post" }}
+    {{ $title = i18n "posts" }}
+  {{ else if eq .Type "talk" }}
+    {{ $title = i18n "talks" }}
+  {{ else if eq .Type "publication" }}
+    {{ $title = i18n "publications" }}
+  {{ end }}
+{{ end }}
+
+{{/* Gestion sécurisée de la largeur (width) */}}
+{{ $wParam := $page.Params.image.width }}
+{{ $hParam := $page.Params.image.height }}
+
+{{ $w := "" }}
+{{ if $wParam }}
+  {{ $wType := printf "%T" $wParam }}
+  {{ if eq $wType "int" }}
+    {{ $w = printf "%d" $wParam }}
+  {{ else if eq $wType "string" }}
+    {{ $w = $wParam }}
+  {{ else }}
+    {{ $w = "720" }}
+  {{ end }}
+{{ else }}
+  {{ $w = "720" }}
+{{ end }}
+
+{{/* Gestion sécurisée de la hauteur (height) */}}
+{{ $h := "" }}
+{{ if $hParam }}
+  {{ $hType := printf "%T" $hParam }}
+  {{ if eq $hType "int" }}
+    {{ $h = printf "%d" $hParam }}
+  {{ else if eq $hType "string" }}
+    {{ $h = $hParam }}
+  {{ else }}
+    {{ $h = "" }}
+  {{ end }}
+{{ else }}
+  {{ $h = "" }}
+{{ end }}
+
+{{ if and $featured (not $page.Params.image.preview_only) (not $page.Params.disable_auto_featured) }}
+
+  {{ $spec := "" }}
+
+  {{ if ne $h "" }}
+    {{ $spec = printf "%sx%s" $w $h }}
+  {{ else }}
+    {{ $spec = printf "%sx" $w }}
+  {{ end }}
+
+  {{ $image := $featured.Resize $spec }}
+
+  <div class="article-container pt-3">
+    <h1>{{ $title }}</h1>
+
+    {{ with $page.Params.subtitle }}
+      <p class="page-subtitle">{{ . | markdownify | emojify }}</p>
+    {{ end }}
+
+    {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
+    {{ partial "page_links_div.html" $page }}
+  </div>
+
+  <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: {{ $image.Width }}px; max-height: {{ $image.Height }}px;">
+    <div style="position: relative">
+      <img src="{{ $image.RelPermalink }}" alt="{{ with $page.Params.image.alt_text }}{{ . }}{{ else }}{{ $title }}{{ end }}" class="featured-image">
+      {{ with $page.Params.image.caption }}<span class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
+    </div>
+  </div>
+
+{{ else }}
+
+  {{/* Cas sans image featured */}}
+  {{ $ctnr := "article-container" }}
+  {{ if $page.IsNode }}
+    {{ $ctnr = "universal-wrapper" }}
+  {{ end }}
+
+  <div class="{{ $ctnr }} pt-3">
+    <h1>{{ $title }}</h1>
+
+    {{ with $page.Params.subtitle }}
+      <p class="page-subtitle">{{ . | markdownify | emojify }}</p>
+    {{ end }}
+
+    {{ if not $page.IsNode }}
+      {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
+      {{ partial "page_links_div.html" $page }}
+    {{ end }}
+  </div>
+
+{{ end }}

@@ -1,0 +1,61 @@
+{{- define "main" -}}
+
+{{ $p := . }}
+
+<div class="pub">
+
+  {{/* Affiche l’en-tête + image featured gérée dans page_header.html */}}
+  {{ partial "page_header.html" $p }}
+
+  <div class="article-container">
+
+    {{ if $p.Params.abstract }}
+      <h3>{{ i18n "abstract" }}</h3>
+      <p class="pub-abstract">{{ $p.Params.abstract | markdownify }}</p>
+    {{ end }}
+
+    {{ if and ($p.Params.publication_types) (ne (index $p.Params.publication_types 0) "0") }}
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <div class="row">
+            <div class="col-12 col-md-3 pub-row-heading">{{ i18n "publication_type" }}</div>
+            <div class="col-12 col-md-9">
+              {{ $pub_types := partial "functions/get_pub_types" $p }}
+              {{ range $p.Params.publication_types }}
+                <a href="{{ (site.GetPage "section" "publication").RelPermalink }}#{{ . | urlize }}">
+                  {{ index $pub_types (int .) }}
+                </a>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+      <div class="d-md-none space-below"></div>
+    {{ end }}
+
+    {{ if $p.Params.publication }}
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <div class="row">
+            <div class="col-12 col-md-3 pub-row-heading">{{ i18n "publication" }}</div>
+            <div class="col-12 col-md-9">{{ $p.Params.publication | markdownify }}</div>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+      <div class="d-md-none space-below"></div>
+    {{ end }}
+
+    <div class="space-below"></div>
+
+    <div class="article-style">{{ $p.Content }}</div>
+
+    {{ partial "page_footer" $p }}
+
+  </div>
+</div>
+
+{{- end -}}

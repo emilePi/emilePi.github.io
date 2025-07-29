@@ -1,0 +1,33 @@
+.container {
+  max-width: 1080px;
+  padding: 0 20px 0 20px;
+  margin: 0 auto 0 auto;
+}
+
+.article-container {
+  max-width: 1080px;
+  padding: 0 20px 0 20px;
+  margin: 0 auto 0 auto;
+}
+
+
+.col-lg-8 {
+  flex: 0 0 100% !important;
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.avatar-circle {
+  border-radius: 50% !important; /* forcer */
+  object-fit: cover;
+  width: 270px;
+  height: 270px;
+  border: 3px solid #ddd;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.custom-featured-img img {
+  width: 300px;
+  height: auto;
+}
+
