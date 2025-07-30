@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>1 | Emile Pierret</title><link>http://localhost:1313/publication-type/1/</link><atom:link href="http://localhost:1313/publication-type/1/index.xml" rel="self" type="application/rss+xml"/><description>1</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en</language><copyright>2020</copyright><lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate><image><url>http://localhost:1313/images/icon_hu74e2ef43be67154c1e224a044141f041_254118_512x512_fill_lanczos_center_3.png</url><title>1</title><link>http://localhost:1313/publication-type/1/</link></image><item><title>Diffusion models for Gaussian distributions: Exact solutions and Wasserstein errors</title><link>http://localhost:1313/publication/w2_gaussian/</link><pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/publication/w2_gaussian/</guid><description>&lt;h2 id="background">Background&lt;/h2>
+&lt;p>We keep the same equation numbering as in the paper.&lt;br>
+We study the continuous formulation of diffusion models, focusing on the Variance Preserving (VP-SDE) framework
+&lt;a href="#Song">[Song et al., 2021]&lt;/a>. The forward process is:&lt;/p>
+&lt;p>\begin{equation}
+\label{eq:sde_forward}
+d\boldsymbol{x}_t =- \beta_t \boldsymbol{x}_t dt + \sqrt{2\beta_t}d\boldsymbol{w}_t, \quad 0 \leq t \leq T, \boldsymbol{x}_0 \sim p_{\text{data}}. \tag{1}
+\end{equation}&lt;/p>
+&lt;p>This degrades the data progressively. Denoting by $p_t$ the marginal distribution of $ \boldsymbol{x}_t$, we have $p_T$ close to $\mathcal{N}(0, I)$ if $\beta_t$ is properly chosen.&lt;br>
+Theoretically, the reverse-time process
+&lt;a href="#Pardoux">[Pardoux, 1986]&lt;/a> is governed by the backward SDE:&lt;/p>
+&lt;p>\begin{equation}
+\label{eq:sde_backward}
+d{\boldsymbol{y}}_t = \beta_{T-t}[{\boldsymbol{y}}_t + 2 \nabla \log p_{T-t}({\boldsymbol{y}}_t)]dt + \sqrt{2\beta_{T-t}}d{\boldsymbol{w}}_t,
+\quad 0 \leq t &amp;lt; T, {\boldsymbol{y}}_0 \sim p_T \tag{2}
+\end{equation}&lt;/p>
+&lt;p>Or equivalently, the associated probability flow ODE:&lt;/p>
+&lt;p>\begin{equation}
+\label{eq:flow_reverse_ode}
+d{\boldsymbol{y}}_t = \beta_{T-t}\left[{\boldsymbol{y}}_t+ \nabla\log p_{T-t}({\boldsymbol{y}}_t)\right]dt, \quad 0 \leq t &amp;lt; T, {\boldsymbol{y}}_0 \sim p_T. \tag{5}
+\end{equation}&lt;/p>
+&lt;p>We illustrate this idea below: assuming that $p_{\text{data}}$ is Gaussian (left of the figure), the forward process evolves from left to right. The &lt;span style="color: rgb(142,105,185);">backward SDE (purple)&lt;/span> and the probability flow ODE (black) reverse this evolution, with overlapping Gaussian ellipses in blue at each time step.&lt;/p>
+&lt;p>&lt;img src="true.png" alt="Theory">&lt;/p>
+&lt;h2 id="error-types-in-diffusion-models">Error Types in Diffusion Models&lt;/h2>
+&lt;p>We identify four distinct sources of error:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Initialization error&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Truncation error&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Discretization error&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Score approximation error&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h3 id="initialization-error">Initialization Error&lt;/h3>
+&lt;p>Occurs when the backward SDE or flow ODE is initialized with $\mathcal{N}(0,I)$ instead of the true $p_T$. This mismatch arises because $p_T$ is unknown in general. Although the forward process converges to $\mathcal{N}(0, I$ asymptotically, in practice we must use a finite $T$. This mismatch causes divergence between the SDE and ODE reverse marginals.&lt;/p>
+&lt;p>&lt;img src="init.png" alt="Initialization">&lt;/p>
+&lt;hr>
+&lt;h3 id="truncation-error">Truncation Error&lt;/h3>
+&lt;p>This error results from stopping the reverse process at some small $\varepsilon &amp;gt; 0$ instead of time 0. It&amp;rsquo;s necessary when the data distribution lacks a density, e.g. if it&amp;rsquo;s supported on a manifold, making $\nabla \log p_t$ undefined at $t=0$.&lt;/p>
+&lt;p>&lt;img src="truncation.png" alt="Truncation">&lt;/p>
+&lt;hr>
+&lt;h3 id="discretization-error">Discretization Error&lt;/h3>
+&lt;p>Discretizing the backward SDE or flow ODE is required for numerical simulation. The choice of discretization scheme (Euler, Heun, etc.) directly impacts the quality of the generated samples.&lt;/p>
+&lt;p>&lt;img src="discrete.png" alt="Discretization">&lt;/p>
+&lt;hr>
+&lt;h3 id="score-approximation-error">Score Approximation Error&lt;/h3>
+&lt;p>In practice, the score function $\nabla \log p_t$ is unknown and approximated by a neural network $s_\theta$. This introduces a model approximation error. The success of diffusion models hinges on the quality of this learned score function.&lt;/p>
+&lt;hr>
+&lt;h2 id="analysis-under-gaussian-assumption">Analysis Under Gaussian Assumption&lt;/h2>
+&lt;p>To precisely analyze these errors, we focus on a tractable case:&lt;/p>
+&lt;p>&lt;strong>Assumption (Gaussian assumption):&lt;/strong> $\quad p_{\text{data}} = \mathcal{N}(0, \boldsymbol{\Sigma}) $&lt;/p>
+&lt;p>This allows closed-form derivations. The covariance matrix $\boldsymbol{\Sigma}$ may be non-invertible, in which case the data lies on a manifold.&lt;/p>
+&lt;p>The exact score is given by:&lt;/p>
+&lt;p>\begin{equation}
+\nabla_{\boldsymbol{x}} \log p_t(\boldsymbol{x}) = -\boldsymbol{\Sigma}_t^{-1} \boldsymbol{x}
+\end{equation}&lt;/p>
+&lt;p>where $ \boldsymbol{\Sigma}_t = e^{-\int_0^t \beta_s ds} \boldsymbol{\Sigma} + (1 - e^{-\int_0^t \beta_s ds}) I $.&lt;/p>
+&lt;p>&lt;strong>Note:&lt;/strong> When $\boldsymbol{\Sigma} $ is singular, the score is undefined at $t = 0$, explaining the necessity of truncation.&lt;/p>
+&lt;p>In this Gaussian setting, we:&lt;/p>
+&lt;ul>
+&lt;li>Derive closed-form solutions for the backward SDE (&lt;strong>Proposition 2&lt;/strong>)&lt;/li>
+&lt;li>Solve the probability flow ODE exactly (&lt;strong>Proposition 3&lt;/strong>)&lt;/li>
+&lt;li>Compute exact Wasserstein-2 errors from initialization, truncation, and discretization (&lt;strong>Section 4&lt;/strong>)&lt;/li>
+&lt;li>Empirically study the score approximation error (&lt;strong>Section 5&lt;/strong>)&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="key-takeaways">Key Takeaways&lt;/h2>
+&lt;ul>
+&lt;li>With only initialization error, the ODE sampler is more accurate than the SDE sampler (&lt;strong>Proposition 4&lt;/strong>)&lt;/li>
+&lt;li>Adding truncation and discretization errors, Heun&amp;rsquo;s method applied to the ODE yields the best performance (&lt;strong>Figure 1&lt;/strong>)&lt;/li>
+&lt;li>Score approximation is the most critical error in practice, and the SDE sampler is more robust to this noise&lt;/li>
+&lt;/ul>
+&lt;p>For full derivations and results, see the paper.&lt;/p>
+&lt;details>
+&lt;summary>Bibtex&lt;/summary>
+&lt;pre>&lt;code>@inproceedings{Pierret_Galerne_diffusion_models_Gaussian_exact_solutions_errors_ICML2025,
+title={Diffusion models for Gaussian distributions: Exact solutions and Wasserstein errors},
+author={Emile Pierret and Bruno Galerne},
+booktitle={Forty-second International Conference on Machine Learning},
+year={2025},
+}
+&lt;/code>&lt;/pre>
+&lt;/details>
+&lt;h2 id="references">References&lt;/h2>
+&lt;p id="Song"> &lt;span style="color: blue;">[Song et al., 2021]&lt;/span> Yang Song, Jascha Sohl-Dickstein, Diederik P Kingma, Abhishek Kumar, Stefano Ermon, &amp; Ben Poole (2021). Score-Based Generative Modeling through Stochastic Differential Equations. In International Conference on Learning Representations. &lt;/p>
+&lt;p id="Pardoux"> &lt;span style="color: blue;">[Pardoux, 1986]&lt;/span> Pardoux, Étienne. Grossissement d'une filtration et retournement du temps d'une diffusion. Séminaire de probabilités, Tome 20 (1986), pp. 48-55. &lt;/p></description></item></channel></rss>

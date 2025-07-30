@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/fr%202025-07-28-11-27-36%29/authors/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr 2025-07-28-11-27-36)"
+                href="http://localhost:1313/fr%202025-07-28-11-27-36%29/authors/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/fr%202025-07-28-11-27-36%29/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr 2025-07-28-11-27-36)"
+                href="http://localhost:1313/fr%202025-07-28-11-27-36%29/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/fr%202025-07-28-11-27-36%29/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr 2025-07-28-11-27-36)"
+                href="http://localhost:1313/fr%202025-07-28-11-27-36%29/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/fr%202025-07-28-11-27-36%29/publication_types/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/publication_types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr 2025-07-28-11-27-36)"
+                href="http://localhost:1313/fr%202025-07-28-11-27-36%29/publication_types/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/fr%202025-07-28-11-27-36%29/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr 2025-07-28-11-27-36)"
+                href="http://localhost:1313/fr%202025-07-28-11-27-36%29/tags/"
+                />
+  </url>
+</urlset>
