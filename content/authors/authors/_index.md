@@ -30,7 +30,7 @@ interests:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:emile.pierret@univ-orleans.fr'  
+  link: 'mailto:pierret@math.cnrs.fr'  
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=MSmLMNQAAAAJ&hl=fr
@@ -45,7 +45,7 @@ social:
   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "emile.pierret@univ-orleans.fr"
+email: "pierret@math.cnrs.fr"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
