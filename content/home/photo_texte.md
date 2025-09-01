@@ -17,7 +17,7 @@ title = ""
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:emile.pierret@univ-orleans.fr'  
+  link: 'mailto:pierret@math.cnrs.fr'  
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=MSmLMNQAAAAJ&hl=fr
