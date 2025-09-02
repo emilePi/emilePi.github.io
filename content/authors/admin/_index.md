@@ -21,6 +21,8 @@ organizations:
 #bio: Currently working on super-resolution.
 
 interests:
+- Flow matching
+- Optimal transport
 - Diffusion models
 - Imaging inverse problems
 
@@ -60,11 +62,12 @@ user_groups:
 - Principal Investigators
 ---
 
-I recently completed my PhD on *"Stochastic Super-resolution and Inverse Problems: From Gaussian Conditional Sampling to Diffusion Models"* under the supervision of [Bruno Galerne](https://www.idpoisson.fr/galerne/) (defended on July 10, 2025).  
+I have started a postdoctoral position in September with [Julie Delon](https://judelo.github.io) between the [MAP5](https://map5.mi.parisdescartes.fr) lab at Université Paris Cité and the [DMA](https://www.math.ens.psl.eu) lab at ENS (Paris).
+
+I have completed my PhD on *"Stochastic Super-resolution and Inverse Problems: From Gaussian Conditional Sampling to Diffusion Models"* under the supervision of [Bruno Galerne](https://www.idpoisson.fr/galerne/) (defended on July 10, 2025).  
 In this work, I studied sampling for inverse problems, with a particular focus on **stochastic super-resolution** within the mathematical framework of Gaussian image distributions and using diffusion models.  
 The manuscript will be available online soon, but some of the results are presented in the *Featured Publications* section.
 
-I’m happy to be starting a postdoctoral position in September with [Julie Delon](https://judelo.github.io).
 
 
 
