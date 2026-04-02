@@ -5,9 +5,11 @@ draft = false
 +++
 
 ## Invited Talks
+- From Diffusion Models to Flow Matching: A Gentle Introduction to Modern Generative Sampling, [Journée du projet CaSciModOT](https://cascimodot.fr/fr/les-journees/43), University of Orléans. December 2025. [Slides](/files/CASCIMODOT2026.pdf).<br>
+Thanks to [Bruno Galerne](https://www.idpoisson.fr/galerne/) for the invitation!
 
 -  A Precise Examination of Diffusion Models via Their Application to Gaussian Distributions, [Séminaire Images, Optimisation et Probabilités](https://www.math.u-bordeaux.fr/fr/agenda/7438), Bordeaux, June 2025. [Slides](/files/Bordeaux2025.pdf).<br>
-  Thanks to [Nicolas Papadakis](https://www.math.u-bordeaux.fr/~npapadak/) for the invitation.
+  Thanks to [Nicolas Papadakis](https://www.math.u-bordeaux.fr/~npapadak/) for the invitation!
 
 - *On the accuracy of diffusion models in Bayesian image inverse problems: A Gaussian case study*, [SMAI 2025](https://smai2025.math.cnrs.fr/fr/), Carcans-Maubuisson, June 2025.  [Slides](/files/SMAI2025.pdf). <br>
   Organized by [Mathurin Massias](https://mathurinm.github.io/about/) and [Quentin Bertrand](https://qb3.github.io) — thanks to them for the invitation!
@@ -35,6 +37,8 @@ draft = false
 
 ## Posters
 
+- *Exact Evaluation of the Accuracy of Diffusion Models for Inverse Problems with Gaussian Data Distributions*, [Journée IASIS Modèles génératifs : diffusion, flow matching et leurs applications](https://gdr-iasis.cnrs.fr/reunions/modeles-generatifs-diffusion-flow-matching-et-leurs-applications/), Lyon, October 2025. [Poster](/files/Poster_IASIS_2025.pdf).
+
 - *Diffusion models for Gaussian distributions: Exact solutions and Wasserstein errors*, [ICML 2025](https://icml.cc), Vancouver, July 2025. [Poster](/files/Poster_ICML_2025.pdf).
 
 - *Diffusion models for Gaussian distributions: Exact solutions and Wasserstein errors*, [MIA'25](https://rt-maiages.math.cnrs.fr/mia25/mia25/), Paris, January 2025.
@@ -42,6 +46,8 @@ draft = false
 - *Stochastic super-resolution for Gaussian textures*, [ICASSP 2023](https://2023.ieeeicassp.org), Rhodes Island, Greece, June 2023. [Poster](/files/Poster_ICASSP_2023.pdf).
 
 ## Outreach Talks / Working Group Presentations
+
+- *A Precise Examination of Diffusion Models via Their Application to Gaussian Distributions*, CSD seminar, ENS Paris, October 2025. [Slides](/files/CSDseminar2026.pdf).
 
 - Journée des doctorants de l'IDP, Tours, November 2024.
 

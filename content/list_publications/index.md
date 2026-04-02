@@ -25,7 +25,7 @@ More details on selected publications from this list can be found in the *Featur
 
 </details>
 
-- **Exact Evaluation of the Accuracy of Diffusion Models for Inverse Problems with Gaussian Data Distributions** Émile Pierret and [Bruno Galerne](https://www.idpoisson.fr/galerne/), 2025. Submitted preprint. [hal](https://hal.science/hal-05155023), [arXiv](https://arxiv.org/abs/2507.07008)
+- **Exact Evaluation of the Accuracy of Diffusion Models for Inverse Problems with Gaussian Data Distributions.** Émile Pierret and [Bruno Galerne](https://www.idpoisson.fr/galerne/), 2025. Submitted preprint. [hal](https://hal.science/hal-05155023), [arXiv](https://arxiv.org/abs/2507.07008)
 <details> 
 
 <summary>Bibtex</summary>
