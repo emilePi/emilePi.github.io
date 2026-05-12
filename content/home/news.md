@@ -8,6 +8,8 @@ active = true
 weight = 50
 +++
 
+- **(May 2026)** New preprint online ! **Tessellations of Semi-Discrete Flow Matching.**, [arXiv](https://arxiv.org/abs/2605.07513v1)
+
 - **(May 2026)** Recipient of the [AI Thesis Prize](https://622.websitex5.me/Lacado-principal/prix-de-these-en-ia.html) from l'[Académie d'Orléans](https://622.websitex5.me/Lacado-principal/index.html) :)
 
 - **(March 2026)** New preprint online ! **Flow Matching for Applied Mathematicians.**, [hal](https://hal.science/hal-05538982)

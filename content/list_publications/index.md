@@ -6,7 +6,27 @@ draft = false
 
 More details on selected publications from this list can be found in the *Featured Publications* section.
 
-## Preprint
+## Preprints
+
+- **Tessellations of Semi-Discrete Flow Matching** Émile Pierret*,  [Johannes Hertrich](https://johertrich.github.io)*, [Samuel Hurault](https://samuro95.github.io) and [Julie Delon](https://judelo.github.io), 2026. Submitted preprint. [arXiv](https://arxiv.org/abs/2605.07513v1)
+
+<details> 
+
+<summary>Bibtex</summary>
+
+```
+@misc{pierret_hertrich_hurault_delon_tessellations_semidiscrete_flow_matching_2026,
+      title={Tessellations of Semi-Discrete Flow Matching}, 
+      author={Emile Pierret and Johannes Hertrich and Samuel Hurault and Julie Delon},
+      year={2026},
+      eprint={2605.07513},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2605.07513}, 
+}
+```
+
+</details>
 
 - **Flow Matching for Applied Mathematicians.** Émile Pierret*, Valentine Tosel*, [Julie Delon](https://judelo.github.io) and [Alasdair Newson](https://sites.google.com/site/alasdairnewson/), 2026. Submitted preprint. [hal](https://hal.science/hal-05538982)
 
