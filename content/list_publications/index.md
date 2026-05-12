@@ -8,7 +8,7 @@ More details on selected publications from this list can be found in the *Featur
 
 ## Preprints
 
-- **Tessellations of Semi-Discrete Flow Matching** Émile Pierret*,  [Johannes Hertrich](https://johertrich.github.io)*, [Samuel Hurault](https://samuro95.github.io) and [Julie Delon](https://judelo.github.io), 2026. Submitted preprint. [arXiv](https://arxiv.org/abs/2605.07513v1)
+- **Tessellations of Semi-Discrete Flow Matching** Émile Pierret*,  [Johannes Hertrich](https://johertrich.github.io)*, [Samuel Hurault](https://samuro95.github.io)* and [Julie Delon](https://judelo.github.io), 2026. Submitted preprint. [arXiv](https://arxiv.org/abs/2605.07513v1)
 
 <details> 
 

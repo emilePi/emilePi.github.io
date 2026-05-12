@@ -18,4 +18,4 @@ weight = 50
 
 - **(July 2025)** Looking forward to presenting our paper *Diffusion models for Gaussian distributions: Exact solutions and Wasserstein errors* as a poster in Vancouver at ICML 2025!
 
-- **(July 2025)** Looking forward to defend my thesis on July 10th! Summary available [here](files/publicite.pdf).
+- **(July 2025)** Looking forward to defending my thesis on July 10th! Summary available [here](files/publicite.pdf).
