@@ -82,7 +82,27 @@ year={2025},
 &lt;h2 id="references">References&lt;/h2>
 &lt;p id="Song"> &lt;span style="color: blue;">[Song et al., 2021]&lt;/span> Yang Song, Jascha Sohl-Dickstein, Diederik P Kingma, Abhishek Kumar, Stefano Ermon, &amp; Ben Poole (2021). Score-Based Generative Modeling through Stochastic Differential Equations. In International Conference on Learning Representations. &lt;/p>
 &lt;p id="Pardoux"> &lt;span style="color: blue;">[Pardoux, 1986]&lt;/span> Pardoux, Étienne. Grossissement d'une filtration et retournement du temps d'une diffusion. Séminaire de probabilités, Tome 20 (1986), pp. 48-55. &lt;/p></description></item><item><title>Stochastic super-resolution for Gaussian microtextures</title><link>http://localhost:1313/publication/gaussian_sr/</link><pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/publication/gaussian_sr/</guid><description/></item><item><title/><link>http://localhost:1313/featured/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/featured/</guid><description/></item><item><title/><link>http://localhost:1313/home/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/home/</guid><description/></item><item><title/><link>http://localhost:1313/list_publications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/list_publications/</guid><description>&lt;p>More details on selected publications from this list can be found in the &lt;em>Featured Publications&lt;/em> section.&lt;/p>
-&lt;h2 id="preprint">Preprint&lt;/h2>
+&lt;h2 id="preprints">Preprints&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Tessellations of Semi-Discrete Flow Matching&lt;/strong> Émile Pierret*,
+&lt;a href="https://johertrich.github.io" target="_blank" rel="noopener">Johannes Hertrich&lt;/a>*,
+&lt;a href="https://samuro95.github.io" target="_blank" rel="noopener">Samuel Hurault&lt;/a> and
+&lt;a href="https://judelo.github.io" target="_blank" rel="noopener">Julie Delon&lt;/a>, 2026. Submitted preprint.
+&lt;a href="https://arxiv.org/abs/2605.07513v1" target="_blank" rel="noopener">arXiv&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;details>
+&lt;summary>Bibtex&lt;/summary>
+&lt;pre>&lt;code>@misc{pierret_hertrich_hurault_delon_tessellations_semidiscrete_flow_matching_2026,
+title={Tessellations of Semi-Discrete Flow Matching},
+author={Emile Pierret and Johannes Hertrich and Samuel Hurault and Julie Delon},
+year={2026},
+eprint={2605.07513},
+archivePrefix={arXiv},
+primaryClass={cs.LG},
+url={https://arxiv.org/abs/2605.07513},
+}
+&lt;/code>&lt;/pre>
+&lt;/details>
 &lt;ul>
 &lt;li>&lt;strong>Flow Matching for Applied Mathematicians.&lt;/strong> Émile Pierret*, Valentine Tosel*,
 &lt;a href="https://judelo.github.io" target="_blank" rel="noopener">Julie Delon&lt;/a> and
