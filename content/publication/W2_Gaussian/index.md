@@ -45,6 +45,14 @@ url_poster: files/Poster_ICML_2025.pdf
 #url_source:
 #url_video:
 
+bibtex: |
+  @inproceedings{Pierret_Galerne_diffusion_models_Gaussian_exact_solutions_errors_ICML2025,
+    title={Diffusion models for {G}aussian distributions: Exact solutions and Wasserstein errors},
+    author={Emile Pierret and Bruno Galerne},
+    booktitle={Forty-second International Conference on Machine Learning},
+    year={2025},
+  }
+
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
@@ -182,21 +190,6 @@ In this Gaussian setting, we:
 - Score approximation is the most critical error in practice, and the SDE sampler is more robust to this noise
 
 For full derivations and results, see the paper.
-
-<details> 
-
-<summary>Bibtex</summary>
-
-```
-@inproceedings{Pierret_Galerne_diffusion_models_Gaussian_exact_solutions_errors_ICML2025,
-title={Diffusion models for Gaussian distributions: Exact solutions and Wasserstein errors},
-author={Emile Pierret and Bruno Galerne},
-booktitle={Forty-second International Conference on Machine Learning},
-year={2025},
-}
-```
-
-</details>
 
 
 

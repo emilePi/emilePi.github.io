@@ -52,6 +52,18 @@ url_poster: files/Poster_ICASSP_2023.pdf
 #url_source:
 #url_video:
 
+bibtex: |
+ @article{Pierret_Galerne_stochastic_superresolution_gaussian_microtextures_SIIMS_2025,
+    author = {Pierret, \'{E}mile and Galerne, Bruno},
+    title = {Stochastic Super-resolution for {G}aussian Microtextures},
+    journal = {SIAM Journal on Imaging Sciences},
+    volume = {18},
+    number = {2},
+    pages = {1176-1207},
+    year = {2025},
+    doi = {10.1137/24M1657407},
+  }
+
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.

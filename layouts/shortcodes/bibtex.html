@@ -1,0 +1,25 @@
+{{ $id := .Get "id" }}
+{{ $content := .Inner | safeHTML }}
+
+<a href="javascript:void(0);"
+   class="bib-inline-link"
+   onclick="openBibtex('{{ $id }}')">
+  bib
+</a>
+
+<div id="bibtex-{{ $id }}" class="bibtex-modal">
+  <div class="bibtex-content">
+
+    <span class="bibtex-close" onclick="closeBibtex('{{ $id }}')">
+      &times;
+    </span>
+
+    <button class="bibtex-copy"
+    onclick="copyBibtex('{{ $id }}')">
+<i class="fas fa-copy"></i> Copy
+</button>
+
+<pre id="bibtex-text-{{ $id }}"><code>{{ $content }}</code></pre>
+
+  </div>
+</div>

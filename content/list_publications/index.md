@@ -8,13 +8,7 @@ More details on selected publications from this list can be found in the *Featur
 
 ## Preprints
 
-- **Tessellations of Semi-Discrete Flow Matching** Émile Pierret\*,  [Johannes Hertrich](https://johertrich.github.io)\*, [Samuel Hurault](https://samuro95.github.io)\* and [Julie Delon](https://judelo.github.io), 2026. Submitted preprint. [arXiv](https://arxiv.org/abs/2605.07513v1)
-
-<details> 
-
-<summary>Bibtex</summary>
-
-```
+- **Tessellations of Semi-Discrete Flow Matching** Émile Pierret\*,  [Johannes Hertrich](https://johertrich.github.io)\*, [Samuel Hurault](https://samuro95.github.io)\* and [Julie Delon](https://judelo.github.io), 2026. Submitted preprint. [arXiv](https://arxiv.org/abs/2605.07513v1), {{< bibtex id="pierret_hertrich_hurault_delon_tessellations_semidiscrete_flow_matching_2026" >}}
 @misc{pierret_hertrich_hurault_delon_tessellations_semidiscrete_flow_matching_2026,
       title={Tessellations of Semi-Discrete Flow Matching}, 
       author={Emile Pierret and Johannes Hertrich and Samuel Hurault and Julie Delon},
@@ -24,95 +18,61 @@ More details on selected publications from this list can be found in the *Featur
       primaryClass={cs.LG},
       url={https://arxiv.org/abs/2605.07513}, 
 }
-```
+{{< /bibtex >}}
 
-</details>
 
-- **Flow Matching for Applied Mathematicians.** Émile Pierret*, Valentine Tosel*, [Julie Delon](https://judelo.github.io) and [Alasdair Newson](https://sites.google.com/site/alasdairnewson/), 2026. Submitted preprint. [hal](https://hal.science/hal-05538982)
-
-<details> 
-
-<summary>Bibtex</summary>
-
-```
+- **Flow Matching for Applied Mathematicians.** Émile Pierret*, Valentine Tosel*, [Julie Delon](https://judelo.github.io) and [Alasdair Newson](https://sites.google.com/site/alasdairnewson/), 2026. Submitted preprint. [hal](https://hal.science/hal-05538982), {{< bibtex id="Pierret_Tosel_Delon_Newson_FM_for_AM_2026" >}}
 @misc{Pierret_Tosel_Delon_Newson_FM_for_AM_2026,
   author={Pierret, Emile and Tosel, Valentine and Delon, Julie and Newson, Alasdair},
   booktitle={Submitted Preprint},
   title={Flow Matching for Applied Mathematicians.},
   year={2026}
   }
-```
+{{< /bibtex >}}
 
-</details>
 
-- **Exact Evaluation of the Accuracy of Diffusion Models for Inverse Problems with Gaussian Data Distributions.** Émile Pierret and [Bruno Galerne](https://www.idpoisson.fr/galerne/), 2025. Submitted preprint. [hal](https://hal.science/hal-05155023), [arXiv](https://arxiv.org/abs/2507.07008)
-<details> 
-
-<summary>Bibtex</summary>
-
-```
+- **Exact Evaluation of the Accuracy of Diffusion Models for Inverse Problems with Gaussian Data Distributions.** Émile Pierret and [Bruno Galerne](https://www.idpoisson.fr/galerne/), 2025. Submitted preprint. [hal](https://hal.science/hal-05155023), [arXiv](https://arxiv.org/abs/2507.07008), {{< bibtex id="Pierret_Galerne_Evaluation_accuracy_diffusion_models" >}}
 @misc{Pierret_Galerne_Evaluation_accuracy_diffusion_models,
   author={Pierret, \'Emile and Galerne, Bruno},
   booktitle={Submitted Preprint},
-  title={Exact Evaluation of the Accuracy of Diffusion Models for Inverse Problems with Gaussian Data Distributions},
+  title={Exact Evaluation of the Accuracy of Diffusion Models for Inverse Problems with {G}aussian Data Distributions},
   year={2025}
   }
-```
-
-</details>
+{{< /bibtex >}}
 
 ## Conference publications
 
-- **Diffusion models for Gaussian distributions: Exact solutions and Wasserstein errors.** Émile Pierret and [Bruno Galerne](https://www.idpoisson.fr/galerne/), 2025. Accepted at [ICML 2025](https://icml.cc). [hal](https://hal.science/hal-04584209), [arXiv](https://arxiv.org/abs/2405.14250), [GitHub](https://github.com/emilePi/Diffusion-models-for-Gaussian-distributions-Exact-solutions-and-Wasserstein-errors)
-<details> 
-
-<summary>Bibtex</summary>
-
-```
+- **Diffusion models for Gaussian distributions: Exact solutions and Wasserstein errors.** Émile Pierret and [Bruno Galerne](https://www.idpoisson.fr/galerne/), 2025. Accepted at [ICML 2025](https://icml.cc). [hal](https://hal.science/hal-04584209), [arXiv](https://arxiv.org/abs/2405.14250), [GitHub](https://github.com/emilePi/Diffusion-models-for-Gaussian-distributions-Exact-solutions-and-Wasserstein-errors), {{< bibtex id="Pierret_Galerne_diffusion_models_Gaussian_exact_solutions_errors_ICML2025" >}}
 @inproceedings{Pierret_Galerne_diffusion_models_Gaussian_exact_solutions_errors_ICML2025,
-title={Diffusion models for Gaussian distributions: Exact solutions and Wasserstein errors},
+title={Diffusion models for {G}aussian distributions: Exact solutions and Wasserstein errors},
 author={Emile Pierret and Bruno Galerne},
 booktitle={Forty-second International Conference on Machine Learning},
 year={2025},
 }
-```
+{{< /bibtex >}}
 
-</details>
 
-- **Stochastic Super-Resolution for Gaussian textures.** Émile Pierret and [Bruno Galerne](https://www.idpoisson.fr/galerne/), 2023. [ICASSP 2023](https://2023.ieeeicassp.org). [hal](https://hal.archives-ouvertes.fr/hal-03863009), [arXiv](https://arxiv.org/abs/2303.01831), [IEEE preview](https://ieeexplore.ieee.org/document/10096585)
-
-<details> 
-
-<summary>Bibtex</summary>
-
-```
+- **Stochastic Super-Resolution for Gaussian textures.** Émile Pierret and [Bruno Galerne](https://www.idpoisson.fr/galerne/), 2023. [ICASSP 2023](https://2023.ieeeicassp.org). [hal](https://hal.archives-ouvertes.fr/hal-03863009), [arXiv](https://arxiv.org/abs/2303.01831), [IEEE preview](https://ieeexplore.ieee.org/document/10096585), {{< bibtex id="Pierret_Galerne_stochastic_SR_for_gaussian_textures_ICASSP_2023" >}}
 @inproceedings{Pierret_Galerne_stochastic_SR_for_gaussian_textures_ICASSP_2023,
   author={Pierret, Émile and Galerne, Bruno},
   booktitle={ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
-  title={Stochastic Super-Resolution For Gaussian Textures}, 
+  title={Stochastic Super-Resolution For {G}aussian Textures}, 
   year={2023},
   volume={},
   number={},
   pages={1-5},
   doi={10.1109/ICASSP49357.2023.10096585}}
+{{< /bibtex >}}
 
-```
-
-</details>
 
 
 ## Journal publication
 
-- **Stochastic Super-Resolution for Gaussian microtextures.** Émile Pierret and [Bruno Galerne](https://www.idpoisson.fr/galerne/), 2025. SIAM Journal on Imaging Sciences ([SIIMS](https://epubs.siam.org/journal/sjisbi)), Vol. 18, No. 2, pp. 1176--1207. [hal](https://hal.science/hal-04560456/en), [arXiv](https://arxiv.org/abs/2405.15399), [GitHub](https://github.com/emilePi/Stochastic_SR_for_Gaussian_textures)
-
-<details> 
-
-<summary>Bibtex</summary>
-
-```
+- **Stochastic Super-Resolution for Gaussian microtextures.** Émile Pierret and [Bruno Galerne](https://www.idpoisson.fr/galerne/), 2025. SIAM Journal on Imaging Sciences ([SIIMS](https://epubs.siam.org/journal/sjisbi)), Vol. 18, No. 2, pp. 1176--1207. [hal](https://hal.science/hal-04560456/en), [arXiv](https://arxiv.org/abs/2405.15399), [GitHub](https://github.com/emilePi/Stochastic_SR_for_Gaussian_textures),
+{{< bibtex id="Pierret_Galerne_stochastic_superresolution_gaussian_microtextures_SIIMS_2025" >}}
 @article{Pierret_Galerne_stochastic_superresolution_gaussian_microtextures_SIIMS_2025,
 author = {Pierret, \'{E}mile and Galerne, Bruno},
-title = {Stochastic Super-resolution for Gaussian Microtextures},
+title = {Stochastic Super-resolution for {G}aussian Microtextures},
 journal = {SIAM Journal on Imaging Sciences},
 volume = {18},
 number = {2},
@@ -120,9 +80,8 @@ pages = {1176-1207},
 year = {2025},
 doi = {10.1137/24M1657407},
 }
-```
+{{< /bibtex >}}
 
-</details>
 
 
 

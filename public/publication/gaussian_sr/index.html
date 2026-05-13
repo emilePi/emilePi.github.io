@@ -217,8 +217,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu74e2ef43be67154c1e224a044141f041_254118_32x32_fill_lanczos_center_3.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu74e2ef43be67154c1e224a044141f041_254118_192x192_fill_lanczos_center_3.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu47573aac1194c10936b0990e3863912f_26564_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu47573aac1194c10936b0990e3863912f_26564_192x192_fill_lanczos_center_3.png">
 
   <link rel="canonical" href="http://localhost:1313/publication/gaussian_sr/">
 
@@ -286,7 +286,7 @@
     "name": "Emile Pierret",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://localhost:1313/images/icon_hu74e2ef43be67154c1e224a044141f041_254118_192x192_fill_lanczos_center_3.png"
+      "url": "http://localhost:1313/images/icon_hu47573aac1194c10936b0990e3863912f_26564_192x192_fill_lanczos_center_3.png"
     }
   },
   "description": "Super-Resolution (SR) is the problem that consists in reconstructing images that have been degraded by a zoom-out operator. This is an ill-posed problem that does not have a unique solution, and numerical approaches rely on a prior on high-resolution images. While optimization-based methods are generally deterministic, with the rise of image generative models more and more interest has been given to stochastic SR, that is, sampling among all possible SR images associated with a given low-resolution input. In this paper, we construct an efficient, stable and provably exact sampler for the stochastic SR of Gaussian microtextures. Even though our approach is limited regarding the scope of images it encompasses, our algorithm is competitive with deep learning state-of-the-art methods both in terms of perceptual metric and execution time when applied to microtextures. The framework of Gaussian microtextures also allows us to rigorously discuss the limitations of various reconstruction metrics to evaluate the efficiency of SR routines."
@@ -599,7 +599,8 @@
 
 </div>
 
-    
+
+      
 
 
 
@@ -614,7 +615,9 @@
 
 
 <div class="btn-links mb-3">
+
   
+
   
 
 
@@ -666,9 +669,52 @@
 
 
 
+
+  
+
+  <button class="btn btn-outline-primary btn-page-header my-1"
+          onclick="openBibtex('index')">
+    Bib
+  </button>
+
+  <div id="bibtex-index"
+       class="bibtex-modal">
+
+    <div class="bibtex-content">
+
+      <span class="bibtex-close"
+            onclick="closeBibtex('index')">
+        &times;
+      </span>
+
+      <button class="bibtex-copy"
+              onclick="copyBibtex('index')">
+        <i class="fas fa-copy"></i> Copy
+      </button>
+
+<pre id="bibtex-text-index"><code>@article{Pierret_Galerne_stochastic_superresolution_gaussian_microtextures_SIIMS_2025,
+   author = {Pierret, \&#39;{E}mile and Galerne, Bruno},
+   title = {Stochastic Super-resolution for {G}aussian Microtextures},
+   journal = {SIAM Journal on Imaging Sciences},
+   volume = {18},
+   number = {2},
+   pages = {1176-1207},
+   year = {2025},
+   doi = {10.1137/24M1657407},
+ }
+</code></pre>
+
+    </div>
+  </div>
+
+  
+
 </div>
 
 
+  
+    
+    </div>
   </div>
 
   <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 1720px; max-height: 604px;">
@@ -885,11 +931,7 @@
     
     <script src="/js/academic.min.cd45a9c0bbdd3dfb1c126917c601c9f2.js"></script>
 
-    
-
-
-
-
+    <script src="/js/bibtex.js"></script>
 
 
   

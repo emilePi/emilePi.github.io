@@ -68,7 +68,38 @@
 
     {{ if $show_buttons }}
     <div class="btn-links">
+    
       {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+    
+      {{ with $item.Params.bibtex }}
+    
+      <button class="btn btn-outline-primary btn-sm my-1"
+              onclick="openBibtex('{{ $item.File.BaseFileName }}')">
+        Bib
+      </button>
+    
+      <div id="bibtex-{{ $item.File.BaseFileName }}"
+           class="bibtex-modal">
+    
+        <div class="bibtex-content">
+    
+          <span class="bibtex-close"
+                onclick="closeBibtex('{{ $item.File.BaseFileName }}')">
+            &times;
+          </span>
+    
+          <button class="bibtex-copy"
+                  onclick="copyBibtex('{{ $item.File.BaseFileName }}')">
+            <i class="fas fa-copy"></i> Copy
+          </button>
+    
+    <pre id="bibtex-text-{{ $item.File.BaseFileName }}"><code>{{ . }}</code></pre>
+    
+        </div>
+      </div>
+    
+      {{ end }}
+    
     </div>
     {{ end }}
 
@@ -83,3 +114,4 @@
     {{end}}
   </div>
 </div>
+
