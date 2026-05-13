@@ -19,6 +19,58 @@
 
 \refsection{0}
   \datalist[entry]{ydnt/global//global/global}
+    \entry{pierret_hertrich_hurault_delon_tessellations_semidiscrete_flow_matching_2026}{misc}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=c44a3d1028c5e6576e81fd5fe186efb6}{%
+           family={Pierret},
+           familyi={P\bibinitperiod},
+           given={Emile},
+           giveni={E\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=30703ab177fe330fec2d07a8d76a345d}{%
+           family={Hertrich},
+           familyi={H\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dfbe07417e0d0a9fd3bfb49039753037}{%
+           family={Hurault},
+           familyi={H\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c3d73a83b0af81534f07c65bf5c185a}{%
+           family={Delon},
+           familyi={D\bibinitperiod},
+           given={Julie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5be7767451ba86f5153540abbfae136d}
+      \strng{fullhash}{6a517b244d6481a8e3871724cad23e9f}
+      \strng{bibnamehash}{6a517b244d6481a8e3871724cad23e9f}
+      \strng{authorbibnamehash}{6a517b244d6481a8e3871724cad23e9f}
+      \strng{authornamehash}{5be7767451ba86f5153540abbfae136d}
+      \strng{authorfullhash}{6a517b244d6481a8e3871724cad23e9f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{title}{Tessellations of Semi-Discrete Flow Matching}
+      \field{year}{2026}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2605.07513
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2605.07513
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2605.07513
+      \endverb
+    \endentry
     \entry{Pierret_Tosel_Delon_Newson_FM_for_AM_2026}{misc}{}
       \name{author}{4}{}{%
         {{un=1,uniquepart=given,hash=c44a3d1028c5e6576e81fd5fe186efb6}{%
