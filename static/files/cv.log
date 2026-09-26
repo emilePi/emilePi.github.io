@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.10.25)  12 MAY 2026 13:54
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.10.25)  26 SEP 2026 07:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1313,15 +1313,15 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'cv.bbl' found.
  (./cv.bbl
 LaTeX Font Info:    Font shape `TU/Cabin(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 73.
+(Font)              scaled to size 10.95pt on input line 63.
 Requested font "[Cabin-Medium.otf]/OT:script=latn;language=dflt;mapping=tex-text;" at 10.95pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/impallari/cabin/Cabin-Medium.otf
 LaTeX Font Info:    Font shape `TU/Cabin(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 73.
+(Font)              scaled to size 8.0pt on input line 63.
 Requested font "[Cabin-Medium.otf]/OT:script=latn;language=dflt;mapping=tex-text;" at 8.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/impallari/cabin/Cabin-Medium.otf
 LaTeX Font Info:    Font shape `TU/Cabin(0)/b/n' will be
-(Font)              scaled to size 8.0pt on input line 73.
+(Font)              scaled to size 8.0pt on input line 63.
 Requested font "[Cabin-Bold.otf]/OT:script=latn;language=dflt;mapping=tex-text;" at 8.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/impallari/cabin/Cabin-Bold.otf
 )
@@ -1483,7 +1483,7 @@ Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;+tnum;
 ]) (./presentations.tex
 Requested font "[TeXGyreTermesX-BoldItalic.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 10.95pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/newtx/TeXGyreTermesX-BoldItalic.otf
-) (./presentations.tex) (./presentations.tex) (./presentations.tex [2]) (./teaching.tex) (./teaching.tex) (./teaching.tex) (./teaching.tex) (./divers.tex) (./divers.tex) (./divers.tex) (./divers.tex) (./misc.tex) (./misc.tex) (./misc.tex) (./misc.tex [3]) [4] (./cv.aux)
+) (./presentations.tex) (./presentations.tex) (./presentations.tex [2]) (./teaching.tex) (./teaching.tex) (./teaching.tex) (./teaching.tex) (./divers.tex) (./divers.tex) (./divers.tex) (./divers.tex [3]) (./misc.tex) (./misc.tex) (./misc.tex) (./misc.tex) [4] (./cv.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1496,7 +1496,7 @@ Package logreq Info: Writing requests to 'cv.run.xml'.
 Here is how much of TeX's memory you used:
  39669 strings out of 476179
  795840 string characters out of 5809543
- 1599219 words of memory out of 5000000
+ 1598218 words of memory out of 5000000
  59644 multiletter control sequences out of 15000+600000
  482890 words of font info for 105 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

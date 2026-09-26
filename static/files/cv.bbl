@@ -19,7 +19,7 @@
 
 \refsection{0}
   \datalist[entry]{ydnt/global//global/global}
-    \entry{pierret_hertrich_hurault_delon_tessellations_semidiscrete_flow_matching_2026}{misc}{}
+    \entry{pierret_hertrich_hurault_delon_tessellations_semidiscrete_flow_matching_2026}{inproceedings}{}
       \name{author}{4}{}{%
         {{un=1,uniquepart=given,hash=c44a3d1028c5e6576e81fd5fe186efb6}{%
            family={Pierret},
@@ -56,20 +56,10 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eprintclass}{cs.LG}
-      \field{eprinttype}{arXiv}
+      \field{booktitle}{The Fortieth Annual Conference on Neural Information Processing Systems}
       \field{title}{Tessellations of Semi-Discrete Flow Matching}
       \field{year}{2026}
       \true{nocite}
-      \verb{eprint}
-      \verb 2605.07513
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2605.07513
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2605.07513
-      \endverb
     \endentry
     \entry{Pierret_Tosel_Delon_Newson_FM_for_AM_2026}{misc}{}
       \name{author}{4}{}{%
