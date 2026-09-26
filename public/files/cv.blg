@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is '/Users/pierret/Documents/Page_emilePi.github.io/public/files/cv.blg'
-[36] biber-darwin:340> INFO - === Fri Sep 25, 2026, 08:42:46
-[42] Biber.pm:418> INFO - Reading '/Users/pierret/Documents/Page_emilePi.github.io/public/files/cv.bcf'
-[77] Biber.pm:969> INFO - Using all citekeys in bib section 0
-[83] Biber.pm:4383> INFO - Processing section 0
-[88] Biber.pm:4574> INFO - Looking for bibtex file 'own-bib.bib' for section 0
-[88] bibtex.pm:1713> INFO - LaTeX decoding ...
-[91] bibtex.pm:1518> INFO - Found BibTeX data source 'own-bib.bib'
-[121] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[121] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[121] Biber.pm:4203> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
-[121] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[126] bbl.pm:654> INFO - Writing '/Users/pierret/Documents/Page_emilePi.github.io/public/files/cv.bbl' with encoding 'UTF-8'
-[127] bbl.pm:757> INFO - Output to /Users/pierret/Documents/Page_emilePi.github.io/public/files/cv.bbl
+[31] biber-darwin:340> INFO - === Sat Sep 26, 2026, 07:36:33
+[39] Biber.pm:418> INFO - Reading '/Users/pierret/Documents/Page_emilePi.github.io/public/files/cv.bcf'
+[73] Biber.pm:969> INFO - Using all citekeys in bib section 0
+[79] Biber.pm:4383> INFO - Processing section 0
+[84] Biber.pm:4574> INFO - Looking for bibtex file 'own-bib.bib' for section 0
+[84] bibtex.pm:1713> INFO - LaTeX decoding ...
+[87] bibtex.pm:1518> INFO - Found BibTeX data source 'own-bib.bib'
+[116] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[116] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[116] Biber.pm:4203> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[116] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[122] bbl.pm:654> INFO - Writing '/Users/pierret/Documents/Page_emilePi.github.io/public/files/cv.bbl' with encoding 'UTF-8'
+[123] bbl.pm:757> INFO - Output to /Users/pierret/Documents/Page_emilePi.github.io/public/files/cv.bbl

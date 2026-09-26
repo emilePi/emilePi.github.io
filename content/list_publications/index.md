@@ -8,17 +8,6 @@ More details on selected publications from this list can be found in the *Featur
 
 ## Preprints
 
-- **Tessellations of Semi-Discrete Flow Matching** Émile Pierret\*,  [Johannes Hertrich](https://johertrich.github.io)\*, [Samuel Hurault](https://samuro95.github.io)\* and [Julie Delon](https://judelo.github.io), 2026. Submitted preprint. [arXiv](https://arxiv.org/abs/2605.07513v1), {{< bibtex id="pierret_hertrich_hurault_delon_tessellations_semidiscrete_flow_matching_2026" >}}
-@misc{pierret_hertrich_hurault_delon_tessellations_semidiscrete_flow_matching_2026,
-      title={Tessellations of Semi-Discrete Flow Matching}, 
-      author={Emile Pierret and Johannes Hertrich and Samuel Hurault and Julie Delon},
-      year={2026},
-      eprint={2605.07513},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2605.07513}, 
-}
-{{< /bibtex >}}
 
 
 - **Flow Matching for Applied Mathematicians.** Émile Pierret*, Valentine Tosel*, [Julie Delon](https://judelo.github.io) and [Alasdair Newson](https://sites.google.com/site/alasdairnewson/), 2026. Submitted preprint. [hal](https://hal.science/hal-05538982), {{< bibtex id="Pierret_Tosel_Delon_Newson_FM_for_AM_2026" >}}
@@ -41,6 +30,15 @@ More details on selected publications from this list can be found in the *Featur
 {{< /bibtex >}}
 
 ## Conference publications
+
+- **Tessellations of Semi-Discrete Flow Matching** Émile Pierret\*,  [Johannes Hertrich](https://johertrich.github.io)\*, [Samuel Hurault](https://samuro95.github.io)\* and [Julie Delon](https://judelo.github.io), 2026. Accepted at Neurips 2026 as an oral. {{< bibtex id="pierret_hertrich_hurault_delon_tessellations_semidiscrete_flow_matching_2026" >}}
+@inproceedings{pierret_hertrich_hurault_delon_tessellations_semidiscrete_flow_matching_2026,
+      title={Tessellations of Semi-Discrete Flow Matching}, 
+      author={Emile Pierret and Johannes Hertrich and Samuel Hurault and Julie Delon},
+      booktitle={The Fortieth Annual Conference on Neural Information Processing Systems},
+year={2026}
+}
+{{< /bibtex >}}
 
 - **Diffusion models for Gaussian distributions: Exact solutions and Wasserstein errors.** Émile Pierret and [Bruno Galerne](https://www.idpoisson.fr/galerne/), 2025. Accepted at [ICML 2025](https://icml.cc). [hal](https://hal.science/hal-04584209), [arXiv](https://arxiv.org/abs/2405.14250), [GitHub](https://github.com/emilePi/Diffusion-models-for-Gaussian-distributions-Exact-solutions-and-Wasserstein-errors), {{< bibtex id="Pierret_Galerne_diffusion_models_Gaussian_exact_solutions_errors_ICML2025" >}}
 @inproceedings{Pierret_Galerne_diffusion_models_Gaussian_exact_solutions_errors_ICML2025,
